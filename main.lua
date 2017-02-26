@@ -1,3 +1,3 @@
-t = require 'torch'
-test = t.Tensor()
-print(test)
+local t = require 'torch'
+local domain = require 'defineDomain'
+print(domain)
